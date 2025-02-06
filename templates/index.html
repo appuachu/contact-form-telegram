@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #555;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: auto;
+            text-align: left;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>This is a simple single-page website with an About and Contact section.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        
+          <form class="contact-form" method="POST" action="/contact">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
+
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+
+              <label for="phone">Phone Number:</label><br>
+              <input type="tel" id="phone" name="phone" required><br><br>
+
+              <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
