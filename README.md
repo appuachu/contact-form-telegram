@@ -28,11 +28,12 @@ cd contact-form-telegram
 pip install flask requests  
 ```
 ## 4️⃣ Replace Telegram Credentials
+```bash
 Edit the app.py file and update the following:
 
 Replace TELEGRAM_BOT_TOKEN with your bot's token.
 Replace TELEGRAM_CHAT_ID with your chat ID.
-
+```
 ## 5️⃣ Run the Application
 ```bash
 python app.py  
