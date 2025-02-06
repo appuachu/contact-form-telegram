@@ -1,5 +1,5 @@
-Contact Form with Telegram Notification
-This is a Flask-based Contact Form that automatically sends submissions to a Telegram bot using the Telegram API.
+# Contact Form with Telegram Notification<\n>
+## This is a Flask-based Contact Form that automatically sends submissions to a Telegram bot using the Telegram API.
 
 ✨ Features
 📩 Users can submit their name, email, and phone number.
@@ -11,21 +11,21 @@ A user fills out the contact form and submits it.
 The form data is sent to the Telegram bot using the Telegram API.
 The user is redirected to a success page.
 
-#🛠 Setup Instructions
+# 🛠 Setup Instructions
 
-#1️⃣ Prerequisites
+# 1️⃣ Prerequisites
 Make sure you have Python 3 installed along with Flask.
 
-#2️⃣ Clone the Repository
+# 2️⃣ Clone the Repository
 ```bash
 git clone https://github.com/appuachu/contact-form-telegram.git  
 cd contact-form-telegram  
 ```
-#3️⃣ Install Dependencies
+# 3️⃣ Install Dependencies
 ```bash
 pip install flask requests  
 ```
-#4️⃣ Replace Telegram Credentials
+# 4️⃣ Replace Telegram Credentials
 Edit the app.py file and update the following:
 
 Replace TELEGRAM_BOT_TOKEN with your bot's token.
